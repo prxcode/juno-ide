@@ -1,4 +1,4 @@
-# Java Code Editor (Student Project)
+# Java Code Editor (Project)
 This is a basic Java Code Editor & Compiler built using JavaFX. This is a simple project made to practice Java, JavaFX, and Gradle.
 
 
