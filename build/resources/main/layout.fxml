@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml" fx:controller="editor.EditorController">
+
+    <top>
+        <ToolBar>
+            <Button text="Compile" onAction="#handleCompile" />
+            <Button text="Run" onAction="#handleRun" />
+        </ToolBar>
+    </top>
+
+    <center>
+        <TextArea fx:id="codeArea" promptText="Write your Java code here..." />
+    </center>
+
+    <bottom>
+        <VBox spacing="5">
+            <Label text="Console Output:" />
+            <TextArea fx:id="consoleArea" editable="false" wrapText="true" prefHeight="150"/>
+        </VBox>
+    </bottom>
+
+</BorderPane>

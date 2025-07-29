@@ -1,0 +1,6 @@
+@echo off
+cd /d %~dp0
+echo Thanks for trying Juno IDE...
+echo Launching Juno IDE...
+gradlew.bat run
+pause
